@@ -96,3 +96,15 @@
 // console.log(resultThree);
 
 // console.log(resultOne % resultTwo);
+
+
+// -------------------DOM ELEMENTS---------------------------------------------
+
+// let home = document.getElementById('navHome');
+// function changeHome() {
+//     // console.log('hi');
+//     home.style.backgroundColor = 'crimson';
+//     home.style.transform = 'rotate(180deg)';
+// };
+
+

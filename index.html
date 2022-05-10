@@ -7,27 +7,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS-Vertiefung_Übungen</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Übung 2_2 -->
+    <style>
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+
 </head>
 
 <body>
-    <!--------- h•e•a•d•e•r -------------- -->
-    <header>
-        <!-- --------- n•a•v-b•a•r ---------------->
-        <nav>
 
-        </nav>
-    </header>
+    <!-- Übung lev2_1 -->
+    <!-- <ul>
+        <div class="listContainer">
+            <li><a class="nav" id="navHome" href="#home">Home</a></li>
+            <li><a class="nav" id="navNews" href="#news">News</a></li>
+            <li><a class="nav" id="navContact" href="#contact">Contact</a></li>
+        </div>
+        <li class="nav"><a class="active" id="navChange" onclick="changeHome()">Change me</a></li>
+    </ul> -->
 
+    <!-- Übung 2_2 -->
+    <div>
+        <form id="form1">
+            <label for="vorname">Vorname</label>
+            <input type="text" id="vorname" name="vorname" placeholder="Dein Name...">
 
-    <!-- -------- m•a•i•n ----------------->
-    <main>
+            <label for="nachname">Last Name</label>
+            <input type="text" id="nachname" name="nachname" placeholder="Dein Nachname...">
 
-    </main>
-
-    <!-- ---------- f•o•o•t•e•r ------------- -->
-    <footer></footer>
-
-    <script src=""></script>
+            <label for="land">Land</label>
+            <select id="land" name="land">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option>
+            </select><input type="submit" value="Submit">
+        </form>
+    </div>
 
     <script src="assets/js/main.js"></script>
 </body>
