@@ -58,7 +58,7 @@
 
     <!-- Übung 2_2 -->
     <div>
-        <form id="form1">
+        <form id="form1" onsubmit="return false">
             <label for="vorname">Vorname</label>
             <input type="text" id="vorname" name="vorname" placeholder="Dein Name...">
 
@@ -70,7 +70,8 @@
                 <option value="Australia">Australia</option>
                 <option value="Canada">Canada</option>
                 <option value="Usa">USA</option>
-            </select><input type="submit" value="Submit">
+            </select>
+            <input type="submit" value="Submit" onclick="showForm()">
         </form>
     </div>
 

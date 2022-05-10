@@ -100,6 +100,8 @@
 
 // -------------------DOM ELEMENTS---------------------------------------------
 
+// Übung 2_1
+
 // let home = document.getElementById('navHome');
 // function changeHome() {
 //     // console.log('hi');
@@ -107,4 +109,16 @@
 //     home.style.transform = 'rotate(180deg)';
 // };
 
+// Übung 2_2
 
+let firstName = document.getElementById('vorname');
+let lastName = document.getElementById('nachname');
+let country = document.getElementById('land');
+
+
+function showForm() {
+
+    console.log(firstName.value + ' ' + lastName.value + ' ' + country.value);
+
+
+}
