@@ -111,14 +111,42 @@
 
 // Übung 2_2
 
-let firstName = document.getElementById('vorname');
-let lastName = document.getElementById('nachname');
-let country = document.getElementById('land');
+// let firstName = document.getElementById('vorname');
+// let lastName = document.getElementById('nachname');
+// let country = document.getElementById('land');
 
 
-function showForm() {
+// function showForm() {
 
-    console.log(firstName.value + ' ' + lastName.value + ' ' + country.value);
+//     console.log(firstName.value + ' ' + lastName.value + ' ' + country.value);
 
 
-}
+// }
+
+
+// Übung 2_10
+
+// function 1
+
+
+let headline = document.getElementById('headline');
+
+
+function s() {
+    console.log('hi');
+    headline.className = "";
+    headline.classList.add("small");
+};
+
+
+
+function m() {
+    console.log('hi');
+    headline.className = "";
+    headline.classList.add("mid");
+};
+function b() {
+    console.log('hi');
+    headline.className = "";
+    headline.classList.add("big");
+};
