@@ -1,0 +1,7 @@
+// Anweisungen
+
+// function generiere eine abgerundete random Zahl
+
+// speichere diese Zahl in einer Variablen ab
+
+// Variable  verwende diese Zahl für eine Farbe

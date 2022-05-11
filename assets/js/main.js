@@ -129,24 +129,58 @@
 // function 1
 
 
-let headline = document.getElementById('headline');
+// let headline = document.getElementById('headline');
 
 
-function s() {
-    console.log('hi');
-    headline.className = "";
-    headline.classList.add("small");
-};
+// function s() {
+//     console.log('hi');
+//     headline.className = "";
+//     headline.classList.add("small");
+// };
 
 
 
-function m() {
-    console.log('hi');
-    headline.className = "";
-    headline.classList.add("mid");
-};
-function b() {
-    console.log('hi');
-    headline.className = "";
-    headline.classList.add("big");
+// function m() {
+//     console.log('hi');
+//     headline.className = "";
+//     headline.classList.add("mid");
+// };
+// function b() {
+//     console.log('hi');
+//     headline.className = "";
+//     headline.classList.add("big");
+// };
+
+
+// Übung 2_11
+
+// Anweisungen
+
+// function generiere eine abgerundete random Zahl
+
+// speichere diese Zahl in einer Variablen ab
+
+// Variable  verwende diese Zahl für eine Farbe
+
+
+// let bgcolor = document.getElementById('bgcolor');
+
+// function randomNumber() {
+//     // console.log('Hi');
+
+//     let r = Math.floor(Math.random() * 255);
+//     let g = Math.floor(Math.random() * 255);
+//     let b = Math.floor(Math.random() * 255);
+
+//     bgcolor.classList.add("background");
+
+//     console.log(r, g, b);
+// }
+// randomNumber();
+
+
+function randomNumber() {
+    const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+    document.body.style.backgroundColor = "#" + randomColor;
+    console.log(randomColor);
 };
